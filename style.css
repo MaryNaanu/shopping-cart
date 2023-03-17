@@ -5,11 +5,14 @@
 }
 body{
     font-family: sans-serif;
+    background-image: url('images/backgroundsplash.jpg');
+    background-size:contain;
+    
 }
 
 .navbar{
-    background-color:#a2d2ff ;
-    color: black;
+    background-color:#d5bdaf ;
+    color: whitesmoke;
     padding: 20px 30px ;
     display: flex;
     justify-content: space-between;
@@ -28,8 +31,8 @@ body{
     top: -15px;
     right: -5px;
     font-size: 14px;
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 1px;
     border-radius:30% ;
 }
@@ -37,7 +40,7 @@ body{
 .shop{
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(4,256px);
+    grid-template-columns: repeat(2,256px);
     gap:25px ;
     justify-content: center;
 
@@ -52,21 +55,40 @@ body{
         grid-template-columns: repeat(1,256px);
     }
 }
-    
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: fallback;
+}
+ h2{
+    color: black;
+    font-size: large;
+ } 
+ h3{
+    color: black;
+    font-size: medium;
+ }  
 
 .item{
-    border: 2px solid #a2d2ff;
-    border-radius: 2px;
+    border: 3px solid #d5bdaf;
+    border-radius: 5px;
+    
 }
+
 img{
-    height: 300px ;
+    height: 305px ;
+  
 }
+
+
 .description{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    background-color: white;
 }
 .price-quantity{
+    color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -75,7 +97,13 @@ img{
 .button{
     display: flex;
     flex-direction: row;
-    gap: 5px;
-
+    background-color:white ;
+    border: 2px solid #d5bdaf ;
+    padding: 1px;
+    border-radius:4px ;
+    
+}
+.button:hover{
+    background-color:#d5bdaf;
 }
 
