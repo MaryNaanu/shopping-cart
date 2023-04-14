@@ -1,2 +1,2 @@
-# shopping-cart
-Built with HTML,CSS and JS
+### Shopping-cart
+- Built with HTML,CSS and JS
